@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset='windows-1251'" />
+  <script type='text/javascript'	src='js/jquery-1.4.2.min.js'></script>
+  <script type='text/javascript'	src='js/jquery.limit-1.2.js'></script>    
+  <script type="text/javascript"	src="js/script.js"></script>  
+  
+  
+<link rel="stylesheet" href="style.css" type="text/css" />
+<title>Пилешко</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="menu-header">
+				<a href="#" style="color: #da1636;" onclick="showbox('login'); return false;">Вход</a>
+				<b> /</b>
+				<a href="#" style="color: #da1636;" onclick="showbox('register'); return false;">Регистрация</a>
+				<a href="contacts.html">Контакти</a>
+			</div>
+			<a href="index.html"><img src="img/logo.png" /></a>
+		</div>
+			
+			
+			
+		<div id="menu">
+				<ul>
+					
+					<li><a class="hide" href="#" title="Моят профил">Моят профил</a>
+
+						<!--[if lte IE 6]>
+						<a href="#">Продукти
+						<table><tr><td>
+						<![endif]-->
+						<ul>							
+							<li><a class="hide" href="gallery.html" title="Снимки">Снимки &raquo</a></li>
+							<li><a class="hide" href="info.html" title="Инфо">Инфо</a></li>
+							<li><a class ="hide" href="friends.html" title="Приятели">Приятели</a></li>
+							<li><a class ="hide" href="#" title="Линкове">Линкове</a></li>
+
+							<li><a class="hide" href="#" title="Настройки">Настройки</a></li>
+						</ul>
+
+						<!--[if lte IE 6]>
+						</td></tr></table>
+						</a>
+						<![endif]-->
+						<li><a href="#" title="Личен блог">С приятели</a></li>
+						<li><a href="#" title="Форум">Директни</a></li>
+						<li><a href="#" title="Днес">@eyankulov</a></li>
+						<li><a href="#" title="За ...">Форум</a></li>
+						
+
+					</li>
+					</ul>
+					<div id="searchwrapper">
+						<form action="">
+							<input type="text" class="searchbox" name="s" value="" />
+							<input type="image" src="img/search_btn.png" class="searchbox_submit" value="" />
+						</form>
+					</div>
+		</div>
+		
+		<div id="main-index">
+			<div id="video">	
+				<h1>Какво е Пилешко?</h1>
+				<object width="410" height="248" style="padding: 0px 0 0 10px;">
+					<param name="movie" value="http://www.youtube.com/v/rIpD7hfffQo?fs=1&amp;hl=en_US"></param>
+					<param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param>
+					<embed src="http://www.youtube.com/v/rIpD7hfffQo?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="410" height="248"></embed>
+				</object>
+				
+			</div>
+			<div id="regbox">
+				<h1>Регистрация: </h1>
+				<form action="">
+				<ul>
+					<li>
+						<div class="regbox">
+							<label>Username:</label>
+							<input type="text"name="s" value="" />
+						</div>
+					</li>
+					<li>
+						<div class="regbox">
+							<label>Password:</label>
+							<input type="text" name="s" value="" />
+						</div>
+					</li>
+					<li>
+						<div class="regbox">
+							<label>Password:</label>
+							<input type="text" name="s" value="" />
+						</div>
+					</li>					
+					<li>
+						<div class="regbox">
+							<label>e-mail:</label>
+							<input type="text" name="s" value="" />
+						</div>
+					</li>
+					<li>
+						<input type="image" src="img/jega.png" value="" style="float: right; margin-right: 25px;"/>
+					</li>
+					
+				</form>
+				
+			</div>
+			
+			<div id="whod">
+			<h1>Вход:</h1>
+			<form action="">
+			<ul>
+				<li>
+					<div class="regbox">
+						<label>Username:</label>
+						<input type="text"name="s" value="" />
+					</div>
+				</li>
+				<li>
+					<div class="regbox">
+						<label>Password:</label>
+						<input type="text" name="s" value="" />
+					</div>
+				</li>
+				
+				<li>
+					<input type="image" src="img/ajde.png" value="" style="float: right; margin-right: 25px;"/>
+				</li>
+				
+			</form>
+				
+			</div>
+			
+		</div><!-- end of main --->
+		
+	</div>
+	
+	
+	<div id="footer">
+		<img src="img/footer-img.png" />
+	</div>
+	<script type="text/javascript">  
+		$('#publishbox').limit('140','#charsLeft'); 
+	</script>	
+</body>
+</html>
